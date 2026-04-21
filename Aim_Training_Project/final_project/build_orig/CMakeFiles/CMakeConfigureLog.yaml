@@ -1,0 +1,2862 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/share/dotnet/"
+      - "/opt/X11/bin/"
+      - "/Users/user/.dotnet/tools/"
+      - "/Users/user/miniconda3/bin/"
+      - "/Users/user/miniconda3/condabin/"
+    searched_directories:
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/uname"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/uname"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/uname"
+      - "/opt/local/bin/uname"
+      - "/opt/local/sbin/uname"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/usr/local/share/dotnet"
+        - "/opt/X11/bin"
+        - "~/.dotnet/tools"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Users/user/miniconda3/bin"
+        - "/Users/user/miniconda3/condabin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Darwin - 20.6.0 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/share/dotnet/"
+      - "/opt/X11/bin/"
+      - "/Users/user/.dotnet/tools/"
+      - "/Users/user/miniconda3/bin/"
+      - "/Users/user/miniconda3/condabin/"
+    searched_directories:
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/gmake"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/gmake"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/gmake"
+      - "/opt/local/bin/gmake"
+      - "/opt/local/sbin/gmake"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/bin/gmake"
+      - "/usr/sbin/gmake"
+      - "/sbin/gmake"
+      - "/usr/local/share/dotnet/gmake"
+      - "/opt/X11/bin/gmake"
+      - "/Users/user/.dotnet/tools/gmake"
+      - "/Users/user/miniconda3/bin/gmake"
+      - "/Users/user/miniconda3/condabin/gmake"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/make"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/make"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/make"
+      - "/opt/local/bin/make"
+      - "/opt/local/sbin/make"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/make"
+      - "/usr/local/bin/make"
+    found: "/usr/bin/make"
+    search_context:
+      ENV{PATH}:
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/usr/local/share/dotnet"
+        - "/opt/X11/bin"
+        - "~/.dotnet/tools"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Users/user/miniconda3/bin"
+        - "/Users/user/miniconda3/condabin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "g++"
+      - "cl"
+      - "bcc"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/share/dotnet/"
+      - "/opt/X11/bin/"
+      - "/Users/user/.dotnet/tools/"
+      - "/Users/user/miniconda3/bin/"
+      - "/Users/user/miniconda3/condabin/"
+    searched_directories:
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/c++"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/c++"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/c++"
+      - "/opt/local/bin/c++"
+      - "/opt/local/sbin/c++"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/c++"
+      - "/usr/local/bin/c++"
+    found: "/usr/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/usr/local/share/dotnet"
+        - "/opt/X11/bin"
+        - "~/.dotnet/tools"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Users/user/miniconda3/bin"
+        - "/Users/user/miniconda3/condabin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/local/share/cmake/Modules/"
+    found: "/usr/local/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/usr/local/share/dotnet"
+        - "/opt/X11/bin"
+        - "~/.dotnet/tools"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Users/user/miniconda3/bin"
+        - "/Users/user/miniconda3/condabin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/user/Downloads/Aim_Training_Project/final_project/build_orig/CMakeFiles/4.1.2/CompilerIdCXX/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:290 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Detecting CXX compiler apple sysroot: "/usr/bin/c++" "-E" "apple-sdk.cpp"
+        # 1 "apple-sdk.cpp"
+        # 1 "<built-in>" 1
+        # 1 "<built-in>" 3
+        # 382 "<built-in>" 3
+        # 1 "<command line>" 1
+        # 1 "<built-in>" 2
+        # 1 "apple-sdk.cpp" 2
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 1 3 4
+        # 240 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 1 3 4
+        # 135 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 136 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 137 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 241 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 2 "apple-sdk.cpp" 2
+        
+        
+      Found apple sysroot: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/share/dotnet/"
+      - "/opt/X11/bin/"
+      - "/Users/user/.dotnet/tools/"
+      - "/Users/user/miniconda3/bin/"
+      - "/Users/user/miniconda3/condabin/"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/usr/local/share/dotnet"
+        - "/opt/X11/bin"
+        - "~/.dotnet/tools"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Users/user/miniconda3/bin"
+        - "/Users/user/miniconda3/condabin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/share/dotnet/"
+      - "/opt/X11/bin/"
+      - "/Users/user/.dotnet/tools/"
+      - "/Users/user/miniconda3/bin/"
+      - "/Users/user/miniconda3/condabin/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/usr/local/share/dotnet"
+        - "/opt/X11/bin"
+        - "~/.dotnet/tools"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Users/user/miniconda3/bin"
+        - "/Users/user/miniconda3/condabin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/share/dotnet/"
+      - "/opt/X11/bin/"
+      - "/Users/user/.dotnet/tools/"
+      - "/Users/user/miniconda3/bin/"
+      - "/Users/user/miniconda3/condabin/"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/usr/local/share/dotnet"
+        - "/opt/X11/bin"
+        - "~/.dotnet/tools"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Users/user/miniconda3/bin"
+        - "/Users/user/miniconda3/condabin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/share/dotnet/"
+      - "/opt/X11/bin/"
+      - "/Users/user/.dotnet/tools/"
+      - "/Users/user/miniconda3/bin/"
+      - "/Users/user/miniconda3/condabin/"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/usr/local/share/dotnet"
+        - "/opt/X11/bin"
+        - "~/.dotnet/tools"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Users/user/miniconda3/bin"
+        - "/Users/user/miniconda3/condabin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/share/dotnet/"
+      - "/opt/X11/bin/"
+      - "/Users/user/.dotnet/tools/"
+      - "/Users/user/miniconda3/bin/"
+      - "/Users/user/miniconda3/condabin/"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/usr/local/share/dotnet"
+        - "/opt/X11/bin"
+        - "~/.dotnet/tools"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Users/user/miniconda3/bin"
+        - "/Users/user/miniconda3/condabin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/share/dotnet/"
+      - "/opt/X11/bin/"
+      - "/Users/user/.dotnet/tools/"
+      - "/Users/user/miniconda3/bin/"
+      - "/Users/user/miniconda3/condabin/"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/usr/local/share/dotnet"
+        - "/opt/X11/bin"
+        - "~/.dotnet/tools"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Users/user/miniconda3/bin"
+        - "/Users/user/miniconda3/condabin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/share/dotnet/"
+      - "/opt/X11/bin/"
+      - "/Users/user/.dotnet/tools/"
+      - "/Users/user/miniconda3/bin/"
+      - "/Users/user/miniconda3/condabin/"
+    searched_directories:
+      - "/usr/bin/objcopy"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/objcopy"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/objcopy"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/objcopy"
+      - "/opt/local/bin/objcopy"
+      - "/opt/local/sbin/objcopy"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/objcopy"
+      - "/usr/local/bin/objcopy"
+      - "/bin/objcopy"
+      - "/usr/sbin/objcopy"
+      - "/sbin/objcopy"
+      - "/usr/local/share/dotnet/objcopy"
+      - "/opt/X11/bin/objcopy"
+      - "/Users/user/.dotnet/tools/objcopy"
+      - "/Users/user/miniconda3/bin/objcopy"
+      - "/Users/user/miniconda3/condabin/objcopy"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/usr/local/share/dotnet"
+        - "/opt/X11/bin"
+        - "~/.dotnet/tools"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Users/user/miniconda3/bin"
+        - "/Users/user/miniconda3/condabin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/share/dotnet/"
+      - "/opt/X11/bin/"
+      - "/Users/user/.dotnet/tools/"
+      - "/Users/user/miniconda3/bin/"
+      - "/Users/user/miniconda3/condabin/"
+    searched_directories:
+      - "/usr/bin/readelf"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/readelf"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/readelf"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/readelf"
+      - "/opt/local/bin/readelf"
+      - "/opt/local/sbin/readelf"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/readelf"
+      - "/usr/local/bin/readelf"
+      - "/bin/readelf"
+      - "/usr/sbin/readelf"
+      - "/sbin/readelf"
+      - "/usr/local/share/dotnet/readelf"
+      - "/opt/X11/bin/readelf"
+      - "/Users/user/.dotnet/tools/readelf"
+      - "/Users/user/miniconda3/bin/readelf"
+      - "/Users/user/miniconda3/condabin/readelf"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/usr/local/share/dotnet"
+        - "/opt/X11/bin"
+        - "~/.dotnet/tools"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Users/user/miniconda3/bin"
+        - "/Users/user/miniconda3/condabin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/share/dotnet/"
+      - "/opt/X11/bin/"
+      - "/Users/user/.dotnet/tools/"
+      - "/Users/user/miniconda3/bin/"
+      - "/Users/user/miniconda3/condabin/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/dlltool"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/dlltool"
+      - "/opt/local/bin/dlltool"
+      - "/opt/local/sbin/dlltool"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/usr/local/share/dotnet/dlltool"
+      - "/opt/X11/bin/dlltool"
+      - "/Users/user/.dotnet/tools/dlltool"
+      - "/Users/user/miniconda3/bin/dlltool"
+      - "/Users/user/miniconda3/condabin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/usr/local/share/dotnet"
+        - "/opt/X11/bin"
+        - "~/.dotnet/tools"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Users/user/miniconda3/bin"
+        - "/Users/user/miniconda3/condabin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/share/dotnet/"
+      - "/opt/X11/bin/"
+      - "/Users/user/.dotnet/tools/"
+      - "/Users/user/miniconda3/bin/"
+      - "/Users/user/miniconda3/condabin/"
+    searched_directories:
+      - "/usr/bin/addr2line"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/addr2line"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/addr2line"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/addr2line"
+      - "/opt/local/bin/addr2line"
+      - "/opt/local/sbin/addr2line"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/addr2line"
+      - "/usr/local/bin/addr2line"
+      - "/bin/addr2line"
+      - "/usr/sbin/addr2line"
+      - "/sbin/addr2line"
+      - "/usr/local/share/dotnet/addr2line"
+      - "/opt/X11/bin/addr2line"
+      - "/Users/user/.dotnet/tools/addr2line"
+      - "/Users/user/miniconda3/bin/addr2line"
+      - "/Users/user/miniconda3/condabin/addr2line"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/usr/local/share/dotnet"
+        - "/opt/X11/bin"
+        - "~/.dotnet/tools"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Users/user/miniconda3/bin"
+        - "/Users/user/miniconda3/condabin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/share/dotnet/"
+      - "/opt/X11/bin/"
+      - "/Users/user/.dotnet/tools/"
+      - "/Users/user/miniconda3/bin/"
+      - "/Users/user/miniconda3/condabin/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/tapi"
+      - "/opt/local/bin/tapi"
+      - "/opt/local/sbin/tapi"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/usr/local/share/dotnet/tapi"
+      - "/opt/X11/bin/tapi"
+      - "/Users/user/.dotnet/tools/tapi"
+      - "/Users/user/miniconda3/bin/tapi"
+      - "/Users/user/miniconda3/condabin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/usr/local/share/dotnet"
+        - "/opt/X11/bin"
+        - "~/.dotnet/tools"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Users/user/miniconda3/bin"
+        - "/Users/user/miniconda3/condabin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Platform/Darwin.cmake:76 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_INSTALL_NAME_TOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "install_name_tool"
+    candidate_directories:
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/share/dotnet/"
+      - "/opt/X11/bin/"
+      - "/Users/user/.dotnet/tools/"
+      - "/Users/user/miniconda3/bin/"
+      - "/Users/user/miniconda3/condabin/"
+    searched_directories:
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/install_name_tool"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/install_name_tool"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/install_name_tool"
+      - "/opt/local/bin/install_name_tool"
+      - "/opt/local/sbin/install_name_tool"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/install_name_tool"
+      - "/usr/local/bin/install_name_tool"
+    found: "/usr/bin/install_name_tool"
+    search_context:
+      ENV{PATH}:
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/usr/local/share/dotnet"
+        - "/opt/X11/bin"
+        - "~/.dotnet/tools"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Users/user/miniconda3/bin"
+        - "/Users/user/miniconda3/condabin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/user/Downloads/Aim_Training_Project/final_project/build_orig/CMakeFiles/CMakeScratch/TryCompile-S8mLEc"
+      binary: "/Users/user/Downloads/Aim_Training_Project/final_project/build_orig/CMakeFiles/CMakeScratch/TryCompile-S8mLEc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/user/Downloads/Aim_Training_Project/final_project/build_orig/CMakeFiles/CMakeScratch/TryCompile-S8mLEc'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7784c/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7784c.dir/build.make CMakeFiles/cmTC_7784c.dir/build
+        Building CXX object CMakeFiles/cmTC_7784c.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -Wl,-v -MD -MT CMakeFiles/cmTC_7784c.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_7784c.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_7784c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 13.0.0 (clang-1300.0.29.30)
+        Target: x86_64-apple-darwin20.6.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx11.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 711 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_7784c.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_7784c.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -fdebug-compilation-dir /Users/user/Downloads/Aim_Training_Project/final_project/build_orig/CMakeFiles/CMakeScratch/TryCompile-S8mLEc -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+nullptrToBoolConversion -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNeonImmediateRangeCheck -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+revert09abecef7bbf -mllvm -disable-aligned-alloc-awareness=1 -mllvm -enable-dse-memoryssa=0 -o CMakeFiles/cmTC_7784c.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 13.0.0 (clang-1300.0.29.30) default target x86_64-apple-darwin20.6.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/local/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1
+         /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_7784c
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7784c.dir/link.txt --verbose=1
+        Apple clang version 13.0.0 (clang-1300.0.29.30)
+        Target: x86_64-apple-darwin20.6.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 11.0.0 12.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_7784c -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7784c.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-711
+        BUILD 21:57:11 Nov 17 2021
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        Library search paths:
+        	/usr/local/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
+        /usr/bin/c++ -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_7784c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_7784c
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:122 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "x86_64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/local/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1]
+          add: [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/usr/include]
+        end of search list found
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+        implicit include dirs: [/usr/local/include;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/user/Downloads/Aim_Training_Project/final_project/build_orig/CMakeFiles/CMakeScratch/TryCompile-S8mLEc']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7784c/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7784c.dir/build.make CMakeFiles/cmTC_7784c.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_7784c.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -Wl -v -MD -MT CMakeFiles/cmTC_7784c.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_7784c.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_7784c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 13.0.0 (clang-1300.0.29.30)]
+        ignore line: [Target: x86_64-apple-darwin20.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx11.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 711 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_7784c.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_7784c.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -fdebug-compilation-dir /Users/user/Downloads/Aim_Training_Project/final_project/build_orig/CMakeFiles/CMakeScratch/TryCompile-S8mLEc -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+nullptrToBoolConversion -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNeonImmediateRangeCheck -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+revert09abecef7bbf -mllvm -disable-aligned-alloc-awareness=1 -mllvm -enable-dse-memoryssa=0 -o CMakeFiles/cmTC_7784c.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 13.0.0 (clang-1300.0.29.30) default target x86_64-apple-darwin20.6.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_7784c]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7784c.dir/link.txt --verbose=1]
+        ignore line: [Apple clang version 13.0.0 (clang-1300.0.29.30)]
+        ignore line: [Target: x86_64-apple-darwin20.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 11.0.0 12.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_7784c -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7784c.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a]
+          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [x86_64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [11.0.0] ==> ignore
+          arg [12.1] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_7784c] ==> ignore
+          arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_7784c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'CXX': /Library/Developer/CommandLineTools/usr/bin/ld
+        Library search paths: [;/usr/local/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: [/usr/local/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Running the CXX compiler's linker: "/Library/Developer/CommandLineTools/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld  PROJECT:ld64-711
+      BUILD 21:57:11 Nov 17 2021
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 13.0.0, (clang-1300.0.29.30) (static support for 27, runtime is 27)
+      TAPI support using: Apple TAPI version 13.0.0 (tapi-1300.0.6.5)
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - ".cs211/cmake/211helpers.cmake:55 (find_package)"
+      - ".cs211/cmake/CMakeLists.txt:13 (find_local_package)"
+      - "CMakeLists.txt:7 (include)"
+    name: "Catch2"
+    configs:
+      -
+        filename: "Catch2Config.cmake"
+        kind: "cmake"
+      -
+        filename: "catch2-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "2020.2"
+      version_complete: "2020.2"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Catch2"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/user/Downloads/Aim_Training_Project/final_project/build_orig/CMakeFiles/pkgRedirects/Catch2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/user/Downloads/Aim_Training_Project/final_project/build_orig/CMakeFiles/pkgRedirects/catch2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/Catch2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/catch2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/Catch2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/catch2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/local/Catch2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/local/catch2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Frameworks/Python.framework/Versions/3.11/Catch2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Frameworks/Python.framework/Versions/3.11/catch2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/Catch2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/catch2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/Catch2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/catch2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Catch2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/catch2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/share/dotnet/Catch2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/share/dotnet/catch2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/X11/Catch2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/X11/catch2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/user/miniconda3/Catch2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/user/miniconda3/catch2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/user/miniconda3/cmake/Catch2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/user/miniconda3/cmake/catch2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/user/miniconda3/condabin/Catch2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/user/miniconda3/condabin/catch2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/Catch2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/catch2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/X11R6/Catch2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/X11R6/catch2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/Catch2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/catch2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Catch2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/catch2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Developer/CommandLineTools/Library/Frameworks/Catch2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Developer/CommandLineTools/Library/Frameworks/catch2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Frameworks/Catch2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Frameworks/catch2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/System/Library/Frameworks/Catch2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/System/Library/Frameworks/catch2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/user/Applications/Catch2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/user/Applications/catch2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Catch2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/catch2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/usr/local/share/dotnet"
+        - "/opt/X11/bin"
+        - "~/.dotnet/tools"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Users/user/miniconda3/bin"
+        - "/Users/user/miniconda3/condabin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - ".cs211/cmake/211helpers.cmake:55 (find_package)"
+      - ".cs211/cmake/CMakeLists.txt:14 (find_local_package)"
+      - "CMakeLists.txt:7 (include)"
+    name: "Ge211"
+    configs:
+      -
+        filename: "Ge211Config.cmake"
+        kind: "cmake"
+      -
+        filename: "ge211-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "2021.3"
+      version_complete: "2021.3"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Ge211"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/user/Downloads/Aim_Training_Project/final_project/build_orig/CMakeFiles/pkgRedirects/Ge211Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/user/Downloads/Aim_Training_Project/final_project/build_orig/CMakeFiles/pkgRedirects/ge211-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/Ge211Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/ge211-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/Ge211Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/ge211-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/local/Ge211Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/local/ge211-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Frameworks/Python.framework/Versions/3.11/Ge211Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Frameworks/Python.framework/Versions/3.11/ge211-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/Ge211Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/ge211-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/Ge211Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/ge211-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Ge211Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/ge211-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/share/dotnet/Ge211Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/share/dotnet/ge211-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/X11/Ge211Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/X11/ge211-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/user/miniconda3/Ge211Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/user/miniconda3/ge211-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/user/miniconda3/cmake/Ge211Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/user/miniconda3/cmake/ge211-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/user/miniconda3/condabin/Ge211Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/user/miniconda3/condabin/ge211-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/Ge211Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/ge211-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/X11R6/Ge211Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/X11R6/ge211-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/Ge211Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/ge211-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ge211Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/ge211-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Developer/CommandLineTools/Library/Frameworks/Ge211Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Developer/CommandLineTools/Library/Frameworks/ge211-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Frameworks/Ge211Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Frameworks/ge211-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/System/Library/Frameworks/Ge211Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/System/Library/Frameworks/ge211-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/user/Applications/Ge211Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/user/Applications/ge211-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Ge211Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/ge211-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/usr/local/share/dotnet"
+        - "/opt/X11/bin"
+        - "~/.dotnet/tools"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Users/user/miniconda3/bin"
+        - "/Users/user/miniconda3/condabin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find-v1"
+    backtrace:
+      - ".cs211/lib/ge211/cmake/FindSDL2.cmake:80 (find_path)"
+      - ".cs211/lib/ge211/CMakeLists.txt:29 (find_package)"
+    mode: "path"
+    variable: "SDL2_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "LAST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "SDL.h"
+    candidate_directories:
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/SDL2/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/include/SDL2/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/include/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/SDL2/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/include/SDL2/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/include/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/SDL2/"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/include/SDL2/"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/include/"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/"
+      - "/opt/local/bin/SDL2/"
+      - "/opt/local/bin/include/SDL2/"
+      - "/opt/local/bin/include/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/SDL2/"
+      - "/opt/local/sbin/include/SDL2/"
+      - "/opt/local/sbin/include/"
+      - "/opt/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/SDL2/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/include/SDL2/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/include/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/usr/local/bin/SDL2/"
+      - "/usr/local/bin/include/SDL2/"
+      - "/usr/local/bin/include/"
+      - "/usr/local/bin/"
+      - "/usr/bin/SDL2/"
+      - "/usr/bin/include/SDL2/"
+      - "/usr/bin/include/"
+      - "/usr/bin/"
+      - "/bin/SDL2/"
+      - "/bin/include/SDL2/"
+      - "/bin/include/"
+      - "/bin/"
+      - "/usr/sbin/SDL2/"
+      - "/usr/sbin/include/SDL2/"
+      - "/usr/sbin/include/"
+      - "/usr/sbin/"
+      - "/sbin/SDL2/"
+      - "/sbin/include/SDL2/"
+      - "/sbin/include/"
+      - "/sbin/"
+      - "/usr/local/share/dotnet/SDL2/"
+      - "/usr/local/share/dotnet/include/SDL2/"
+      - "/usr/local/share/dotnet/include/"
+      - "/usr/local/share/dotnet/"
+      - "/opt/X11/bin/SDL2/"
+      - "/opt/X11/bin/include/SDL2/"
+      - "/opt/X11/bin/include/"
+      - "/opt/X11/bin/"
+      - "/Users/user/.dotnet/tools/SDL2/"
+      - "/Users/user/.dotnet/tools/include/SDL2/"
+      - "/Users/user/.dotnet/tools/include/"
+      - "/Users/user/.dotnet/tools/"
+      - "/Users/user/miniconda3/bin/SDL2/"
+      - "/Users/user/miniconda3/bin/include/SDL2/"
+      - "/Users/user/miniconda3/bin/include/"
+      - "/Users/user/miniconda3/bin/"
+      - "/Users/user/miniconda3/condabin/SDL2/"
+      - "/Users/user/miniconda3/condabin/include/SDL2/"
+      - "/Users/user/miniconda3/condabin/include/"
+      - "/Users/user/miniconda3/condabin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/SDL2/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/include/SDL2/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/SDL2/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/SDL2/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+      - "/usr/local/include/SDL2/"
+      - "/usr/local/include/include/SDL2/"
+      - "/usr/local/include/include/"
+      - "/usr/local/include/"
+      - "/usr/local/SDL2/"
+      - "/usr/local/include/SDL2/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/SDL2/"
+      - "/usr/include/include/SDL2/"
+      - "/usr/include/include/"
+      - "/usr/include/"
+      - "/usr/SDL2/"
+      - "/usr/include/SDL2/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/SDL2/"
+      - "/include/include/SDL2/"
+      - "/include/include/"
+      - "/include/"
+      - "/usr/X11R6/include/SDL2/"
+      - "/usr/X11R6/include/include/SDL2/"
+      - "/usr/X11R6/include/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/SDL2/"
+      - "/usr/X11R6/include/SDL2/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/SDL2/"
+      - "/usr/pkg/include/include/SDL2/"
+      - "/usr/pkg/include/include/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/SDL2/"
+      - "/usr/pkg/include/SDL2/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/SDL2/"
+      - "/opt/include/include/SDL2/"
+      - "/opt/include/include/"
+      - "/opt/include/"
+      - "/opt/SDL2/"
+      - "/opt/include/SDL2/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/sw/include/SDL2/"
+      - "/sw/include/include/SDL2/"
+      - "/sw/include/include/"
+      - "/sw/include/"
+      - "/sw/SDL2/"
+      - "/sw/include/SDL2/"
+      - "/sw/include/"
+      - "/sw/"
+      - "/opt/local/include/SDL2/"
+      - "/opt/local/include/include/SDL2/"
+      - "/opt/local/include/include/"
+      - "/opt/local/include/"
+      - "/opt/local/SDL2/"
+      - "/opt/local/include/SDL2/"
+      - "/opt/local/include/"
+      - "/opt/local/"
+      - "/usr/include/X11/SDL2/"
+      - "/usr/include/X11/include/SDL2/"
+      - "/usr/include/X11/include/"
+      - "/usr/include/X11/"
+      - "/Users/user/Library/Frameworks/SDL2/"
+      - "/Users/user/Library/Frameworks/include/SDL2/"
+      - "/Users/user/Library/Frameworks/include/"
+      - "/Users/user/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/SDL2/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/include/SDL2/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/SDL2/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/include/SDL2/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/SDL2/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/include/SDL2/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/SDL2/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/include/SDL2/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/include/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
+      - "/Library/Frameworks/SDL2/"
+      - "/Library/Frameworks/include/SDL2/"
+      - "/Library/Frameworks/include/"
+      - "/Library/Frameworks/"
+      - "/Network/Library/Frameworks/SDL2/"
+      - "/Network/Library/Frameworks/include/SDL2/"
+      - "/Network/Library/Frameworks/include/"
+      - "/Network/Library/Frameworks/"
+      - "/System/Library/Frameworks/SDL2/"
+      - "/System/Library/Frameworks/include/SDL2/"
+      - "/System/Library/Frameworks/include/"
+      - "/System/Library/Frameworks/"
+    searched_directories:
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/SDL2/SDL.h"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/include/SDL2/SDL.h"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/include/SDL.h"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/SDL.h"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/SDL2/SDL.h"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/include/SDL2/SDL.h"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/include/SDL.h"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/SDL.h"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/SDL2/SDL.h"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/include/SDL2/SDL.h"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/include/SDL.h"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/SDL.h"
+      - "/opt/local/bin/SDL2/SDL.h"
+      - "/opt/local/bin/include/SDL2/SDL.h"
+      - "/opt/local/bin/include/SDL.h"
+      - "/opt/local/bin/SDL.h"
+      - "/opt/local/sbin/SDL2/SDL.h"
+      - "/opt/local/sbin/include/SDL2/SDL.h"
+      - "/opt/local/sbin/include/SDL.h"
+      - "/opt/local/sbin/SDL.h"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/SDL2/SDL.h"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/include/SDL2/SDL.h"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/include/SDL.h"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/SDL.h"
+      - "/usr/local/bin/SDL2/SDL.h"
+      - "/usr/local/bin/include/SDL2/SDL.h"
+      - "/usr/local/bin/include/SDL.h"
+      - "/usr/local/bin/SDL.h"
+      - "/usr/bin/SDL2/SDL.h"
+      - "/usr/bin/include/SDL2/SDL.h"
+      - "/usr/bin/include/SDL.h"
+      - "/usr/bin/SDL.h"
+      - "/bin/SDL2/SDL.h"
+      - "/bin/include/SDL2/SDL.h"
+      - "/bin/include/SDL.h"
+      - "/bin/SDL.h"
+      - "/usr/sbin/SDL2/SDL.h"
+      - "/usr/sbin/include/SDL2/SDL.h"
+      - "/usr/sbin/include/SDL.h"
+      - "/usr/sbin/SDL.h"
+      - "/sbin/SDL2/SDL.h"
+      - "/sbin/include/SDL2/SDL.h"
+      - "/sbin/include/SDL.h"
+      - "/sbin/SDL.h"
+      - "/usr/local/share/dotnet/SDL2/SDL.h"
+      - "/usr/local/share/dotnet/include/SDL2/SDL.h"
+      - "/usr/local/share/dotnet/include/SDL.h"
+      - "/usr/local/share/dotnet/SDL.h"
+      - "/opt/X11/bin/SDL2/SDL.h"
+      - "/opt/X11/bin/include/SDL2/SDL.h"
+      - "/opt/X11/bin/include/SDL.h"
+      - "/opt/X11/bin/SDL.h"
+      - "/Users/user/.dotnet/tools/SDL2/SDL.h"
+      - "/Users/user/.dotnet/tools/include/SDL2/SDL.h"
+      - "/Users/user/.dotnet/tools/include/SDL.h"
+      - "/Users/user/.dotnet/tools/SDL.h"
+      - "/Users/user/miniconda3/bin/SDL2/SDL.h"
+      - "/Users/user/miniconda3/bin/include/SDL2/SDL.h"
+      - "/Users/user/miniconda3/bin/include/SDL.h"
+      - "/Users/user/miniconda3/bin/SDL.h"
+      - "/Users/user/miniconda3/condabin/SDL2/SDL.h"
+      - "/Users/user/miniconda3/condabin/include/SDL2/SDL.h"
+      - "/Users/user/miniconda3/condabin/include/SDL.h"
+      - "/Users/user/miniconda3/condabin/SDL.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/SDL2/SDL.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/include/SDL2/SDL.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/include/SDL.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/SDL.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/SDL2/SDL.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/SDL2/SDL.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/SDL.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/SDL.h"
+    found: "/usr/local/include/SDL2/"
+    search_context:
+      ENV{PATH}:
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/usr/local/share/dotnet"
+        - "/opt/X11/bin"
+        - "~/.dotnet/tools"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Users/user/miniconda3/bin"
+        - "/Users/user/miniconda3/condabin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find-v1"
+    backtrace:
+      - ".cs211/lib/ge211/cmake/FindSDL2.cmake:99 (find_library)"
+      - ".cs211/lib/ge211/CMakeLists.txt:29 (find_package)"
+    mode: "library"
+    variable: "SDL2_LIBRARY_TEMP"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "LAST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "SDL2"
+    candidate_directories:
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/share/dotnet/"
+      - "/opt/X11/bin/"
+      - "/Users/user/miniconda3/bin/"
+      - "/Users/user/miniconda3/condabin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/opt/"
+      - "/opt/local/lib/"
+      - "/opt/local/lib/"
+      - "/opt/local/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
+      - "/Library/Frameworks/"
+      - "/System/Library/Frameworks/"
+    searched_directories:
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/share/dotnet/"
+      - "/opt/X11/bin/"
+      - "/Users/user/miniconda3/bin/"
+      - "/Users/user/miniconda3/condabin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+    found: "/usr/local/lib/libSDL2.dylib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/usr/local/share/dotnet"
+        - "/opt/X11/bin"
+        - "~/.dotnet/tools"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Users/user/miniconda3/bin"
+        - "/Users/user/miniconda3/condabin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find-v1"
+    backtrace:
+      - ".cs211/lib/ge211/cmake/FindSDL2_image.cmake:33 (find_path)"
+      - ".cs211/lib/ge211/CMakeLists.txt:30 (find_package)"
+    mode: "path"
+    variable: "SDL2_IMAGE_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "LAST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "SDL_image.h"
+    candidate_directories:
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/SDL2/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/include/SDL2/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/include/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/SDL2/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/include/SDL2/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/include/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/SDL2/"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/include/SDL2/"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/include/"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/"
+      - "/opt/local/bin/SDL2/"
+      - "/opt/local/bin/include/SDL2/"
+      - "/opt/local/bin/include/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/SDL2/"
+      - "/opt/local/sbin/include/SDL2/"
+      - "/opt/local/sbin/include/"
+      - "/opt/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/SDL2/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/include/SDL2/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/include/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/usr/local/bin/SDL2/"
+      - "/usr/local/bin/include/SDL2/"
+      - "/usr/local/bin/include/"
+      - "/usr/local/bin/"
+      - "/usr/bin/SDL2/"
+      - "/usr/bin/include/SDL2/"
+      - "/usr/bin/include/"
+      - "/usr/bin/"
+      - "/bin/SDL2/"
+      - "/bin/include/SDL2/"
+      - "/bin/include/"
+      - "/bin/"
+      - "/usr/sbin/SDL2/"
+      - "/usr/sbin/include/SDL2/"
+      - "/usr/sbin/include/"
+      - "/usr/sbin/"
+      - "/sbin/SDL2/"
+      - "/sbin/include/SDL2/"
+      - "/sbin/include/"
+      - "/sbin/"
+      - "/usr/local/share/dotnet/SDL2/"
+      - "/usr/local/share/dotnet/include/SDL2/"
+      - "/usr/local/share/dotnet/include/"
+      - "/usr/local/share/dotnet/"
+      - "/opt/X11/bin/SDL2/"
+      - "/opt/X11/bin/include/SDL2/"
+      - "/opt/X11/bin/include/"
+      - "/opt/X11/bin/"
+      - "/Users/user/.dotnet/tools/SDL2/"
+      - "/Users/user/.dotnet/tools/include/SDL2/"
+      - "/Users/user/.dotnet/tools/include/"
+      - "/Users/user/.dotnet/tools/"
+      - "/Users/user/miniconda3/bin/SDL2/"
+      - "/Users/user/miniconda3/bin/include/SDL2/"
+      - "/Users/user/miniconda3/bin/include/"
+      - "/Users/user/miniconda3/bin/"
+      - "/Users/user/miniconda3/condabin/SDL2/"
+      - "/Users/user/miniconda3/condabin/include/SDL2/"
+      - "/Users/user/miniconda3/condabin/include/"
+      - "/Users/user/miniconda3/condabin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/SDL2/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/include/SDL2/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/SDL2/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/SDL2/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+      - "/usr/local/include/SDL2/"
+      - "/usr/local/include/include/SDL2/"
+      - "/usr/local/include/include/"
+      - "/usr/local/include/"
+      - "/usr/local/SDL2/"
+      - "/usr/local/include/SDL2/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/SDL2/"
+      - "/usr/include/include/SDL2/"
+      - "/usr/include/include/"
+      - "/usr/include/"
+      - "/usr/SDL2/"
+      - "/usr/include/SDL2/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/SDL2/"
+      - "/include/include/SDL2/"
+      - "/include/include/"
+      - "/include/"
+      - "/usr/X11R6/include/SDL2/"
+      - "/usr/X11R6/include/include/SDL2/"
+      - "/usr/X11R6/include/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/SDL2/"
+      - "/usr/X11R6/include/SDL2/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/SDL2/"
+      - "/usr/pkg/include/include/SDL2/"
+      - "/usr/pkg/include/include/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/SDL2/"
+      - "/usr/pkg/include/SDL2/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/SDL2/"
+      - "/opt/include/include/SDL2/"
+      - "/opt/include/include/"
+      - "/opt/include/"
+      - "/opt/SDL2/"
+      - "/opt/include/SDL2/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/sw/include/SDL2/"
+      - "/sw/include/include/SDL2/"
+      - "/sw/include/include/"
+      - "/sw/include/"
+      - "/sw/SDL2/"
+      - "/sw/include/SDL2/"
+      - "/sw/include/"
+      - "/sw/"
+      - "/opt/local/include/SDL2/"
+      - "/opt/local/include/include/SDL2/"
+      - "/opt/local/include/include/"
+      - "/opt/local/include/"
+      - "/opt/local/SDL2/"
+      - "/opt/local/include/SDL2/"
+      - "/opt/local/include/"
+      - "/opt/local/"
+      - "/usr/include/X11/SDL2/"
+      - "/usr/include/X11/include/SDL2/"
+      - "/usr/include/X11/include/"
+      - "/usr/include/X11/"
+      - "/Users/user/Library/Frameworks/SDL2/"
+      - "/Users/user/Library/Frameworks/include/SDL2/"
+      - "/Users/user/Library/Frameworks/include/"
+      - "/Users/user/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/SDL2/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/include/SDL2/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/SDL2/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/include/SDL2/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/SDL2/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/include/SDL2/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/SDL2/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/include/SDL2/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/include/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
+      - "/Library/Frameworks/SDL2/"
+      - "/Library/Frameworks/include/SDL2/"
+      - "/Library/Frameworks/include/"
+      - "/Library/Frameworks/"
+      - "/Network/Library/Frameworks/SDL2/"
+      - "/Network/Library/Frameworks/include/SDL2/"
+      - "/Network/Library/Frameworks/include/"
+      - "/Network/Library/Frameworks/"
+      - "/System/Library/Frameworks/SDL2/"
+      - "/System/Library/Frameworks/include/SDL2/"
+      - "/System/Library/Frameworks/include/"
+      - "/System/Library/Frameworks/"
+    searched_directories:
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/SDL2/SDL_image.h"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/include/SDL2/SDL_image.h"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/include/SDL_image.h"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/SDL_image.h"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/SDL2/SDL_image.h"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/include/SDL2/SDL_image.h"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/include/SDL_image.h"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/SDL_image.h"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/SDL2/SDL_image.h"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/include/SDL2/SDL_image.h"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/include/SDL_image.h"
+      - "/Users/user/tools/apache-maven-3.9.9/bin/SDL_image.h"
+      - "/opt/local/bin/SDL2/SDL_image.h"
+      - "/opt/local/bin/include/SDL2/SDL_image.h"
+      - "/opt/local/bin/include/SDL_image.h"
+      - "/opt/local/bin/SDL_image.h"
+      - "/opt/local/sbin/SDL2/SDL_image.h"
+      - "/opt/local/sbin/include/SDL2/SDL_image.h"
+      - "/opt/local/sbin/include/SDL_image.h"
+      - "/opt/local/sbin/SDL_image.h"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/SDL2/SDL_image.h"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/include/SDL2/SDL_image.h"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/include/SDL_image.h"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/SDL_image.h"
+      - "/usr/local/bin/SDL2/SDL_image.h"
+      - "/usr/local/bin/include/SDL2/SDL_image.h"
+      - "/usr/local/bin/include/SDL_image.h"
+      - "/usr/local/bin/SDL_image.h"
+      - "/usr/bin/SDL2/SDL_image.h"
+      - "/usr/bin/include/SDL2/SDL_image.h"
+      - "/usr/bin/include/SDL_image.h"
+      - "/usr/bin/SDL_image.h"
+      - "/bin/SDL2/SDL_image.h"
+      - "/bin/include/SDL2/SDL_image.h"
+      - "/bin/include/SDL_image.h"
+      - "/bin/SDL_image.h"
+      - "/usr/sbin/SDL2/SDL_image.h"
+      - "/usr/sbin/include/SDL2/SDL_image.h"
+      - "/usr/sbin/include/SDL_image.h"
+      - "/usr/sbin/SDL_image.h"
+      - "/sbin/SDL2/SDL_image.h"
+      - "/sbin/include/SDL2/SDL_image.h"
+      - "/sbin/include/SDL_image.h"
+      - "/sbin/SDL_image.h"
+      - "/usr/local/share/dotnet/SDL2/SDL_image.h"
+      - "/usr/local/share/dotnet/include/SDL2/SDL_image.h"
+      - "/usr/local/share/dotnet/include/SDL_image.h"
+      - "/usr/local/share/dotnet/SDL_image.h"
+      - "/opt/X11/bin/SDL2/SDL_image.h"
+      - "/opt/X11/bin/include/SDL2/SDL_image.h"
+      - "/opt/X11/bin/include/SDL_image.h"
+      - "/opt/X11/bin/SDL_image.h"
+      - "/Users/user/.dotnet/tools/SDL2/SDL_image.h"
+      - "/Users/user/.dotnet/tools/include/SDL2/SDL_image.h"
+      - "/Users/user/.dotnet/tools/include/SDL_image.h"
+      - "/Users/user/.dotnet/tools/SDL_image.h"
+      - "/Users/user/miniconda3/bin/SDL2/SDL_image.h"
+      - "/Users/user/miniconda3/bin/include/SDL2/SDL_image.h"
+      - "/Users/user/miniconda3/bin/include/SDL_image.h"
+      - "/Users/user/miniconda3/bin/SDL_image.h"
+      - "/Users/user/miniconda3/condabin/SDL2/SDL_image.h"
+      - "/Users/user/miniconda3/condabin/include/SDL2/SDL_image.h"
+      - "/Users/user/miniconda3/condabin/include/SDL_image.h"
+      - "/Users/user/miniconda3/condabin/SDL_image.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/SDL2/SDL_image.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/include/SDL2/SDL_image.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/include/SDL_image.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/SDL_image.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/SDL2/SDL_image.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/SDL2/SDL_image.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/SDL_image.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/SDL_image.h"
+      - "/usr/local/include/SDL2/SDL_image.h"
+      - "/usr/local/include/include/SDL2/SDL_image.h"
+      - "/usr/local/include/include/SDL_image.h"
+      - "/usr/local/include/SDL_image.h"
+      - "/usr/local/SDL2/SDL_image.h"
+      - "/usr/local/include/SDL2/SDL_image.h"
+      - "/usr/local/include/SDL_image.h"
+      - "/usr/local/SDL_image.h"
+      - "/usr/include/SDL2/SDL_image.h"
+      - "/usr/include/include/SDL2/SDL_image.h"
+      - "/usr/include/include/SDL_image.h"
+      - "/usr/include/SDL_image.h"
+      - "/usr/SDL2/SDL_image.h"
+      - "/usr/include/SDL2/SDL_image.h"
+      - "/usr/include/SDL_image.h"
+      - "/usr/SDL_image.h"
+      - "/include/SDL2/SDL_image.h"
+      - "/include/include/SDL2/SDL_image.h"
+      - "/include/include/SDL_image.h"
+      - "/include/SDL_image.h"
+      - "/usr/X11R6/include/SDL2/SDL_image.h"
+      - "/usr/X11R6/include/include/SDL2/SDL_image.h"
+      - "/usr/X11R6/include/include/SDL_image.h"
+      - "/usr/X11R6/include/SDL_image.h"
+      - "/usr/X11R6/SDL2/SDL_image.h"
+      - "/usr/X11R6/include/SDL2/SDL_image.h"
+      - "/usr/X11R6/include/SDL_image.h"
+      - "/usr/X11R6/SDL_image.h"
+      - "/usr/pkg/include/SDL2/SDL_image.h"
+      - "/usr/pkg/include/include/SDL2/SDL_image.h"
+      - "/usr/pkg/include/include/SDL_image.h"
+      - "/usr/pkg/include/SDL_image.h"
+      - "/usr/pkg/SDL2/SDL_image.h"
+      - "/usr/pkg/include/SDL2/SDL_image.h"
+      - "/usr/pkg/include/SDL_image.h"
+      - "/usr/pkg/SDL_image.h"
+      - "/opt/include/SDL2/SDL_image.h"
+      - "/opt/include/include/SDL2/SDL_image.h"
+      - "/opt/include/include/SDL_image.h"
+      - "/opt/include/SDL_image.h"
+      - "/opt/SDL2/SDL_image.h"
+      - "/opt/include/SDL2/SDL_image.h"
+      - "/opt/include/SDL_image.h"
+      - "/opt/SDL_image.h"
+      - "/sw/include/SDL2/SDL_image.h"
+      - "/sw/include/include/SDL2/SDL_image.h"
+      - "/sw/include/include/SDL_image.h"
+      - "/sw/include/SDL_image.h"
+      - "/sw/SDL2/SDL_image.h"
+      - "/sw/include/SDL2/SDL_image.h"
+      - "/sw/include/SDL_image.h"
+      - "/sw/SDL_image.h"
+      - "/opt/local/include/SDL2/SDL_image.h"
+      - "/opt/local/include/include/SDL2/SDL_image.h"
+      - "/opt/local/include/include/SDL_image.h"
+      - "/opt/local/include/SDL_image.h"
+      - "/opt/local/SDL2/SDL_image.h"
+      - "/opt/local/include/SDL2/SDL_image.h"
+      - "/opt/local/include/SDL_image.h"
+      - "/opt/local/SDL_image.h"
+      - "/usr/include/X11/SDL2/SDL_image.h"
+      - "/usr/include/X11/include/SDL2/SDL_image.h"
+      - "/usr/include/X11/include/SDL_image.h"
+      - "/usr/include/X11/SDL_image.h"
+      - "/Users/user/Library/Frameworks/SDL2/SDL_image.h"
+      - "/Users/user/Library/Frameworks/include/SDL2/SDL_image.h"
+      - "/Users/user/Library/Frameworks/include/SDL_image.h"
+      - "/Users/user/Library/Frameworks/SDL_image.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/SDL2/SDL_image.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/include/SDL2/SDL_image.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/include/SDL_image.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/SDL_image.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/SDL2/SDL_image.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/include/SDL2/SDL_image.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/include/SDL_image.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/SDL_image.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/SDL2/SDL_image.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/include/SDL2/SDL_image.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/include/SDL_image.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/SDL_image.h"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/SDL2/SDL_image.h"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/include/SDL2/SDL_image.h"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/include/SDL_image.h"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/SDL_image.h"
+      - "/Library/Frameworks/SDL2/SDL_image.h"
+      - "/Library/Frameworks/include/SDL2/SDL_image.h"
+      - "/Library/Frameworks/include/SDL_image.h"
+      - "/Library/Frameworks/SDL_image.h"
+      - "/Network/Library/Frameworks/SDL2/SDL_image.h"
+      - "/Network/Library/Frameworks/include/SDL2/SDL_image.h"
+      - "/Network/Library/Frameworks/include/SDL_image.h"
+      - "/Network/Library/Frameworks/SDL_image.h"
+      - "/System/Library/Frameworks/SDL2/SDL_image.h"
+      - "/System/Library/Frameworks/include/SDL2/SDL_image.h"
+      - "/System/Library/Frameworks/include/SDL_image.h"
+      - "/System/Library/Frameworks/SDL_image.h"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/usr/local/share/dotnet"
+        - "/opt/X11/bin"
+        - "~/.dotnet/tools"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Users/user/miniconda3/bin"
+        - "/Users/user/miniconda3/condabin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find-v1"
+    backtrace:
+      - ".cs211/lib/ge211/cmake/FindSDL2_image.cmake:51 (find_library)"
+      - ".cs211/lib/ge211/CMakeLists.txt:30 (find_package)"
+    mode: "library"
+    variable: "SDL2_IMAGE_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "LAST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "SDL2_image"
+    candidate_directories:
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/share/dotnet/"
+      - "/opt/X11/bin/"
+      - "/Users/user/miniconda3/bin/"
+      - "/Users/user/miniconda3/condabin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/opt/"
+      - "/opt/local/lib/"
+      - "/opt/local/lib/"
+      - "/opt/local/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
+      - "/Library/Frameworks/"
+      - "/System/Library/Frameworks/"
+    searched_directories:
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/share/dotnet/"
+      - "/opt/X11/bin/"
+      - "/Users/user/miniconda3/bin/"
+      - "/Users/user/miniconda3/condabin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/opt/"
+      - "/opt/local/lib/"
+      - "/opt/local/lib/"
+      - "/opt/local/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
+      - "/Library/Frameworks/"
+      - "/System/Library/Frameworks/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/usr/local/share/dotnet"
+        - "/opt/X11/bin"
+        - "~/.dotnet/tools"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/user/tools/apache-maven-3.9.9/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Users/user/miniconda3/bin"
+        - "/Users/user/miniconda3/condabin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+...

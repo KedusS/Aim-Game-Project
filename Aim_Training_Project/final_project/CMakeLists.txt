@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.3)
+cmake_minimum_required(VERSION 3.10)
 
 # TODO: Change “game” to the name of your game (no spaces!):
 set(GAME_EXE game)

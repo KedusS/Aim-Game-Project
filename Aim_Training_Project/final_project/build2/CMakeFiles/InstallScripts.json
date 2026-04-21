@@ -1,0 +1,13 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/user/Downloads/Aim_Training_Project/final_project/build2/cmake_install.cmake",
+		"/Users/user/Downloads/Aim_Training_Project/final_project/build2/.cs211/lib/catch/cmake_install.cmake",
+		"/Users/user/Downloads/Aim_Training_Project/final_project/build2/.cs211/lib/ge211/cmake_install.cmake",
+		"/Users/user/Downloads/Aim_Training_Project/final_project/build2/.cs211/lib/ge211/3rdparty/utf8-cpp/cmake_install.cmake",
+		"/Users/user/Downloads/Aim_Training_Project/final_project/build2/.cs211/lib/ge211/src/cmake_install.cmake",
+		"/Users/user/Downloads/Aim_Training_Project/final_project/build2/.cs211/lib/ge211/doc/cmake_install.cmake",
+		"/Users/user/Downloads/Aim_Training_Project/final_project/build2/.cs211/lib/ge211/example/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
